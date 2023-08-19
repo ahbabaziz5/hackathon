@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Personal Blogging App</div>
+    <div class="navlink">
+        <a href="./login.html">Login</a>
+        
+    </div></div>
+   
+    <div class="hi">
+      <div class="head" >
+     <h2 style="margin-top: 30px; margin-left: 20px;">Sign Up</h2></div>
+
+    <div class="totalbox ">
+    
+    <!-- 
+        <form class="loginForm" action="/action_page.php" method="post"> -->
+            <input placeholder="First name" type="text"  minlength="3" maxlength="20" type="text" id="fname"  required/>
+            <input placeholder="Last name" type="text"  minlength="1" required maxlength="20"  id="lname" required />
+           <input placeholder="Email address" type="Email" id="email" required />
+          <input placeholder="Password" type="password" minlength="8"  id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required />
+          <input placeholder="Repeat password" type="password" id="repeat" required />
+          <input type="file"  id="file">
+          <div class="boxcheckbox">
+           
+            <button class="loginbtn" id="signbtn">Create</button>
+          </div>
+          </span>already have account ? <a href="./login.html" id="a">login</a></span>
+        </form>
+      </div>
+    </div>
+    <!-- <input type="email" id="email"><input type="password" id="password">
+    <button id="btn">submit</b -->
+
+    <script src="./singup.js" type="module"></script>
+</body>
+</html>

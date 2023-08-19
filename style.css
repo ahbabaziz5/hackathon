@@ -1,0 +1,250 @@
+HTML CSSResult Skip Results Iframe
+ body{
+  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: pink;
+    height: 600px;
+    width: 100%;
+} 
+
+h2{
+    color: #56a5eb;
+}
+a{
+    color: #56a5eb;
+
+}
+
+.totalbox{
+    margin-top: 100px;
+    width: 40%;
+    height: auto;
+
+    margin: auto;
+    padding: 5px 30px; 
+    background: #fff;
+    max-width: 360px;
+    margin: 0 auto ;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0px 1px 2px 2px  #56a5eb;
+    border-radius: 10PX;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+}
+
+.boxcheckbox{
+margin-top: 10px;
+}
+
+button{
+margin-top: 10px;
+}
+
+i{
+    color: red;
+    margin-top: 10px;
+   
+}
+span{
+    margin-top:  50px;
+    color: #56a5eb;
+}
+.loginbtn{
+    background: #56a5eb;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+.loginbtn:hover,
+.loginbtn:focus{
+    background: #56a5eb;
+}
+
+.boxcheckbox label{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+.container{
+    border: 1px solid black;
+    height: 40px;
+    width: 100%;
+background-color: #56a5eb;
+    position: fixed;
+    top: 0px;
+    border-style: none;
+    
+}
+.logo{
+    border: 1px solid black;
+    height: 25px;
+    width: 100%;
+    /* background-color: white; */
+    margin-top: 8px;
+    margin-left: 25px;
+   display: flex;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+
+}
+.navlink{
+
+    border: 1px solid black;
+    width: 250px;
+    height: 20px;
+margin-left: 1000px;
+margin-top: -25px;
+color: white;
+display: flex;
+justify-content: space-between;
+padding-top: 5px;
+border-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#a{
+    text-decoration: none;
+    color: #56a5eb;
+
+}
+.hi{
+    width: 100%;
+    height: 97vh;
+    border: 1px ;
+    /* border-style: none; */
+    
+   
+}
+.head{
+border: 1px solid white;
+background-color: white;
+height: 80px;
+width: 100%;
+padding-top: 10px;
+/* border-style: none; */
+
+}
+
+
+
+.post{
+    height: 360px;
+    width: auto;
+    border: 1px solid silver;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+textarea{
+    margin-top: 20px;
+    resize: none;
+}
+button{
+    background-color: #56a5eb;
+    height: 30px;
+    border-style: none;
+width: auto;
+border-radius: 5px;
+color: white;}
+
+
+
+
+.prt{
+    border: 1px solid silver;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 10px;
+   
+}
+.box{
+    width: 80%;
+    height: auto;
+    border: 1px solid silver;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   border-style: none;
+  
+}
+#myimg{
+    height: 150px;
+    width: 20%;
+    border: 1px solid silver;
+}
+#content{
+    height: auto;
+    width: 79.5%;
+    border: 1px solid silver;
+} 
+#descri{
+    height: auto;
+    width: 100%;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 1px 1px #56a5eb;
+}
+
+
+
+
+#myimg1{
+    height: 100px;
+    width: 30%;
+    border: 1px solid silver;
+}
+@media only screen and (max-width: 600px) {
+    .totalbox{
+        width: 90%;
+    }
+    .container .navlink{
+        margin-left: 290px;
+        padding-top: 5px;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .totalbox{
+        width: 90%;
+    }
+    .container .navlink{
+        margin-left: 290px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+  }
